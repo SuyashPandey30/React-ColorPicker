@@ -1,0 +1,40 @@
+.App {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .color-list {
+    display: inline-block;
+    margin-left: 15px;
+    gap: 15px;
+    margin-top: 15px;
+  }
+  
+  .color-box {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 10%;
+    margin-left: 10px;
+    
+  }
+  
+  .selected-color {
+    margin-top: 50px;
+    font-weight: bold;
+  }
+  
+  button{
+    display: block;
+    margin-left: 750px;
+  }
+
+  .result-box{
+    width: 10px;
+    display: flex;
+    height: 100px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
