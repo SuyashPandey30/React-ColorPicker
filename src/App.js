@@ -26,13 +26,14 @@ const App = () => {
   return (
     <div className="App">
       <h1>Color Picker App</h1>
-      <ColorPicker colors={colors} onColorChange={handleColorChange} />
       <div className="selected-color">
-        Selected Color:{" "}
+        {" "}
         <div
           className="result-box"
           style={{ backgroundColor: selectedColor }}
-        ></div>
+        >
+      <ColorPicker colors={colors} onColorChange={handleColorChange} />
+        </div>
       </div>
     </div>
   );
