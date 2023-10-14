@@ -17,7 +17,7 @@ const App = () => {
     "#FFB6C1",
     "#800080",
   ];
-  const [selectedColor, setSelectedColor] = useState("#FF5733");
+  const [selectedColor, setSelectedColor] = useState("#F3F3F3");
 
   const handleColorChange = (color) => {
     setSelectedColor(color);
